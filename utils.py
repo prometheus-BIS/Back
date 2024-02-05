@@ -171,3 +171,5 @@ def chat_summary(briefing_data):
     execution_time = end_time - start_time
     print(f"LLM 돌리는데 걸린 시간: {execution_time} seconds")
     return chat_completion.choices[0].message.content
+
+

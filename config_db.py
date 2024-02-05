@@ -18,3 +18,4 @@ DATABASE_URI = DATABASE_URI.replace("<DATABASE_ID>", DATABASE_ID).replace(
 )
 client = MongoClient(DATABASE_URI, tlsCAFile=certifi.where())  # MongoDB 주소와 포트에 맞게 수정
 db = client["BIS"]  # 데이터베이스 이름에 맞게 수정
+

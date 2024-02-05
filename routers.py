@@ -123,3 +123,4 @@ def getCustom(username: str = Form(...)):
     print(f"겟커스텀 custom_list : {custom_list}")
     json_str = json.dumps(custom_list, ensure_ascii=False)
     return Response(content=json_str, media_type="application/json; charset=UTF-8")
+

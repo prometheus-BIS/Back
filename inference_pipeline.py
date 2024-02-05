@@ -31,7 +31,6 @@ class Realsense:
     def release(self):
         self.pipeline.stop()
 
-
 def inference_pipeline(username, request_id):
     cam = Realsense()
     start = time.time()

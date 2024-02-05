@@ -40,3 +40,4 @@ def end_scheduler(username, scheduler):
         scheduler.remove_job(job_id=username)
     except JobLookupError:
         print("Job does not exist")
+
